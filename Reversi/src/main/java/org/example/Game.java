@@ -27,7 +27,7 @@ public class Game {
                     table.printTable(first);
                     System.out.println("Первый игрок: " + table.findPoints(first.chip) + " очков");
                     System.out.println("Второй игрок: " + table.findPoints(second.chip) + " очков");
-                    System.out.println("Ход первого игрока: ");
+                    System.out.println("Ход первого игрока (b): ");
                     first.makeMove(table);
                 } catch(IllegalArgumentException e) {
                     System.out.println("Нельзя совершить такой ход, попробуйте снова");
@@ -42,7 +42,7 @@ public class Game {
                     table.printTable(second);
                     System.out.println("Первый игрок: " + table.findPoints(first.chip) + " очков");
                     System.out.println("Второй игрок: " + table.findPoints(second.chip) + " очков");
-                    System.out.println("Ход второго игрока: ");
+                    System.out.println("Ход второго игрока (w): ");
                     second.makeMove(table);
                 } catch(IllegalArgumentException e) {
                     System.out.println("Нельзя совершить такой ход, попробуйте снова");
