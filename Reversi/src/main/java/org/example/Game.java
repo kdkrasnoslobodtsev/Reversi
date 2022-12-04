@@ -13,10 +13,10 @@ public class Game {
         first = player1;
         second = player2;
         table = new Table(8);
-        table.set(3, 3, "b");
-        table.set(4, 4, "b");
-        table.set(3, 4, "w");
-        table.set(4, 3, "w");
+        table.set(3, 3, "w");
+        table.set(4, 4, "w");
+        table.set(3, 4, "b");
+        table.set(4, 3, "b");
     }
 
     public void startGame() {
