@@ -35,6 +35,7 @@ public class Game {
                 } catch(UnexpectedException e) {
                     System.out.println(e.getMessage());
                 } catch (Exception e) {
+                    System.out.println("Введены некорректные данные, попробуйте еще раз");
                     continue;
                 }
             } else {
@@ -50,6 +51,7 @@ public class Game {
                 } catch(UnexpectedException e) {
                     System.out.println(e.getMessage());
                 } catch (Exception e) {
+                    System.out.println("Введены некорректные данные, попробуйте еще раз");
                     continue;
                 }
             }
